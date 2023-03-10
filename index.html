@@ -53,12 +53,14 @@
             <a href="https://blog.narwh.ch" class="navbar-link" data-nav-link style="font-family: MiSans !important;" target="_blank">博客</a>
           </li>
 
+          <!--
           <li>
             <a href="#about" class="navbar-link" data-nav-link style="font-family: MiSans !important;">关于</a>
           </li>
+          -->
 
           <li>
-            <a href="#portfolio" class="navbar-link" data-nav-link style="font-family: MiSans !important;">项目</a>
+            <a href="#site" class="navbar-link" data-nav-link style="font-family: MiSans !important;">项目</a>
           </li>
 
           <li>
@@ -70,11 +72,11 @@
           </li>
 
           <li>
-            <a href="#blog" class="navbar-link" data-nav-link style="font-family: MiSans !important;">博客</a>
+            <a href="#blog" class="navbar-link" data-nav-link style="font-family: MiSans !important;">文章</a>
           </li>
 
           <li>
-            <a href="mailto:i@narwh.ch" class="btn btn-primary" style="font-family: Poppins !important;">Follow</a>
+            <a href="https://github.com/narwhrl/homepage" target="_blank" class="btn btn-primary" style="font-family: Poppins !important;">Github</a>
           </li>
 
         </ul>
@@ -99,7 +101,7 @@
 
           <div class="hero-banner">
 
-            <img src="./assets/images/avatar.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+            <img src="./assets/images/avatar.jpg" width="800" height="864" loading="lazy" alt="Narwhrl"
               class="img-cover">
 <!--
             <div class="elem elem-3">
@@ -114,33 +116,66 @@
           <div class="hero-content">
 
             <h2 class="hero-title" >
-              <span>👋 Hello there! </span>
+              <span>Hello there! 👋</span>
               <strong style="font-family: Poppins;">I'm Narwhrl</strong> A Trekker / A Beginner in Web Development
             </h2>
 
-            <p class="hero-text">
+            <p class="hero-text" style="margin-bottom: 40px;">
               Beware beginning & Keep learning. <br>
               Constantly writing interesting contents.
             </p>
 
+            
+            <div>
+              <a href="https://weibo.com/narwhrl/" target="_blank">
+                <img src="./assets/images/icon1.png" class="social-icon" onmouseover="changeImg(this, './assets/images/icon1-hover.png')" onmouseout="changeImg(this, './assets/images/icon1.png')" alt="weibo">
+              </a>
+
+              <a href="https://space.bilibili.com/7179789/" target="_blank">
+                <img src="./assets/images/icon2.png" class="social-icon" onmouseover="changeImg(this, './assets/images/icon2-hover.png')" onmouseout="changeImg(this, './assets/images/icon2.png')" alt="weibo">
+              </a>
+
+              <a href="https://github.com/narwhrl/" target="_blank">
+                <img src="./assets/images/icon3.png" class="social-icon" onmouseover="changeImg(this, './assets/images/icon3-hover.png')" onmouseout="changeImg(this, './assets/images/icon3.png')" alt="weibo">
+              </a>
+
+              <a href="https://t.me/narwhrl/" target="_blank">
+                <img src="./assets/images/icon4.png" class="social-icon" onmouseover="changeImg(this, './assets/images/icon4-hover.png')" onmouseout="changeImg(this, './assets/images/icon4.png')" alt="weibo">
+              </a>
+
+              <a href="https://twitter.com/Teclast_/" target="_blank">
+                <img src="./assets/images/icon5.png" class="social-icon" onmouseover="changeImg(this, './assets/images/icon5-hover.png')" onmouseout="changeImg(this, './assets/images/icon5.png')" alt="weibo">
+              </a>
+            </div>
+          
+            
+            <!--
+            <a href="https://weibo.com/narwhrl">
+            <i class="fa-brands fa-weibo"></i></a>
+            
+            <a href="https://space.bilibili.com/7179789">
+            <i class="fa-brands fa-bilibili"></i></a>
+            -->
+
+            <!--
             <div class="btn-group">
               <a href="#contact" class="btn btn-primary blue" style="font-family: MiSans;">打招呼</a>
             </div>
+            -->
 
           </div>
 
         </div>
+      
       </section>
-
-
-
 
 
       <!-- 
         - #ABOUT
-      -->
+      
 
       <section class="section about" id="about">
+        <br><br><br><br>
         <div class="container">
 
           <figure class="about-banner">
@@ -188,16 +223,15 @@
 
         </div>
       </section>
-
-
-
+      -->
 
 
       <!-- 
         - #PORTFOLIO
       -->
 
-      <section class="section portfolio" id="portfolio">
+      <section class="section portfolio" id="site">
+        <br><br><br><br>
         <div class="container">
 
           <p class="section-subtitle" style="font-family: MiSans !important;"><strong>个人站点</strong></p>
@@ -205,7 +239,7 @@
           <h2 class="h2 section-title">My Personal Sites</h2>
 
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            
           </p>
 
           <ul class="portfolio-list">
@@ -306,13 +340,13 @@
       </section>
 
 
-      <br><br><br><br>
 
       <!-- 
         - #DONATE
       -->
 
       <section class="section donate" id="donate">
+        <br><br><br><br>
         <div class="container">
 
           <div class="donate-card">
@@ -473,6 +507,7 @@
       -->
 
       <section class="section contact" id="contact">
+        <br><br><br><br>
         <div class="container">
 
           <div class="contact-card">
@@ -484,23 +519,7 @@
             <div class="wrapper">
 
               <ul class="contact-list">
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
-                  </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Address</h3>
-
-                    <address class="contact-item-link">
-                      20, London, United Kingdom
-                    </address>
-                  </div>
-
-                </li>
-
+                
                 <li class="contact-item">
 
                   <div class="contact-icon">
@@ -510,21 +529,37 @@
                   <div>
                     <h3 class="contact-item-title">Email</h3>
 
-                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
+                    <a href="mailto:i@narwhrl.com" target="_blank" class="contact-item-link">i@narwhrl.com</a>
                   </div>
 
                 </li>
 
                 <li class="contact-item">
 
+
                   <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
+                    <ion-icon name="logo-github"></ion-icon>
                   </div>
 
                   <div>
-                    <h3 class="contact-item-title">Phone</h3>
+                    <h3 class="contact-item-title">Github</h3>
 
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
+                    <a href="https://github.com/narwhrl" target="_blank" class="contact-item-link">@narwhrl</a>
+                  </div>
+
+                </li>
+
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Telegram</h3>
+
+                    <a href="https://t.me/narwhrl" target="_blank" class="contact-item-link">@narwhrl</a>
                   </div>
 
                 </li>
@@ -537,15 +572,13 @@
                 <li class="contact-item">
 
                   <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
                   </div>
 
                   <div>
-                    <h3 class="contact-item-title">Address</h3>
+                    <h3 class="contact-item-title">Twitter</h3>
 
-                    <address class="contact-item-link">
-                      20, London, United Kingdom
-                    </address>
+                    <a href="https://twitter.com/Teclast_" target="_blank" class="contact-item-link">@Teclast_</a>
                   </div>
 
                 </li>
@@ -553,13 +586,13 @@
                 <li class="contact-item">
 
                   <div class="contact-icon">
-                    <ion-icon name="mail"></ion-icon>
+                    <ion-icon name="logo-steam"></ion-icon>
                   </div>
 
                   <div>
-                    <h3 class="contact-item-title">Email</h3>
+                    <h3 class="contact-item-title">Steam</h3>
 
-                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
+                    <a href="https://steamcommunity.com/id/narwhrl" target="_blank" class="contact-item-link">@narwhrl</a>
                   </div>
 
                 </li>
@@ -567,13 +600,13 @@
                 <li class="contact-item">
 
                   <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
+                    <ion-icon name="logo-discord"></ion-icon>
                   </div>
 
                   <div>
                     <h3 class="contact-item-title">Phone</h3>
 
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
+                    <a href="https://discord.com" target="_blank" class="contact-item-link">Narwhrl#8046</a>
                   </div>
 
                 </li>
@@ -588,9 +621,6 @@
       </section>
 
 
-
-
-
       <!-- 
         - #BLOG
       -->
@@ -598,12 +628,12 @@
       <section class="section blog" id="blog">
         <div class="container">
 
-          <p class="section-subtitle">Latest News</p>
+          <p class="section-subtitle">最近消息</p>
 
-          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+          <h2 class="h2 section-title">博客更新</h2>
 
           <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+            🛠️Under construction... expecting more contents.🛠️
           </p>
 
           <ul class="blog-list">
@@ -613,15 +643,15 @@
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                    <img src="./assets/images/blog-arc.png" width="1181" height="843" loading="lazy"
                       alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="https://blog.narwh.ch" class="card-tag">Arc浏览器</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="https://blog.narwh.ch">「Arc浏览器」<br>这是一个绝佳的浏览器的推荐</a>
                 </h3>
 
               </div>
@@ -632,15 +662,15 @@
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                    <img src="./assets/images/blog-memos.png" width="1181" height="843" loading="lazy"
                       alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="https://blog.narwh.ch" class="card-tag" style="font-family: MiSans;">Memos卡片式笔记</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="https://blog.narwh.ch">自托管Flomo笔记的部署与使用<br>A Guide of Memos from Deployment to Utilization</a>
                 </h3>
 
               </div>
@@ -651,15 +681,15 @@
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                    <img src="./assets/images/blog-alist.png" width="1181" height="843" loading="lazy"
                       alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="https://blog.narwh.ch/" class="card-tag" style="font-family: MiSans;">Alist文件列表程序</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="https://blog.narwh.ch/">Alist V2 从部署到使用 <br>A Guide of Alist V2 from Deployment to Utilization</a>
                 </h3>
 
               </div>
@@ -686,6 +716,8 @@
 
       <p class="copyright">
         &copy; 2002-2023 <a href="#" class="copyright-link">Narwhrl</a>. All Rights Reseverd
+        <br><i class="fa-brands fa-js"></i>&nbsp;<i class="fa-brands fa-node-js"></i>&nbsp;<i class="fa-brands fa-npm"></i>&nbsp;<i class="fa-brands fa-html5"></i>&nbsp;<i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-markdown"></i>&nbsp;<i class="fa-brands fa-github"></i>&nbsp;<i class="fa-brands fa-cloudflare"></i>&nbsp;
       </p>
 <!--
       <ul class="footer-list">
@@ -723,6 +755,7 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/9c90ee3d2e.js" crossorigin="anonymous"></script>
 
 </body>
 
