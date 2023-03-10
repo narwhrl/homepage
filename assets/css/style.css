@@ -387,7 +387,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/bg.webp");
+  background-image: url("https://blog-1313263980.cos.ap-shanghai.myqcloud.com/assets/images/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
