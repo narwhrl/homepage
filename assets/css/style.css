@@ -139,6 +139,21 @@
 }
 
 
+.site-favicon {
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+  max-width: 32px;
+}
+
+.center {
+  text-align: center;
+}
+
+.icon-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 
 
@@ -372,7 +387,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
