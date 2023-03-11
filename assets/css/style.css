@@ -146,10 +146,6 @@
   max-width: 32px;
 }
 
-.center {
-  text-align: center;
-}
-
 .icon-inline {
   display: inline-block;
   vertical-align: middle;
@@ -171,6 +167,12 @@
 
 li { list-style: none; }
 
+.center {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
 .social-icon {
   transition: all 0.5s ease;
 }
@@ -181,8 +183,10 @@ li { list-style: none; }
 
 .social-icon {
   float: left;
-  margin-right: 10px;
-  max-width: 40px;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-bottom: 12px;
+  max-width: 36px;
 }
 
 a {
@@ -1233,4 +1237,13 @@ textarea.contact-input {
   .copyright,
   .footer-list { margin-inline: 0; }
 
+  .social-icon {
+    float: left;
+    margin-right: 12px;
+    margin-left: 0px;
+    max-width: 45px;
+  }
+
 }
+
+  
